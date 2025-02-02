@@ -16,8 +16,7 @@ class HomeScreen extends StatelessWidget {
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.black),
           onPressed: () {
-            // Exiting the app when back arrow is pressed
-            SystemNavigator.pop(); // Close the app
+            SystemNavigator.pop();
           },
         ),
         title: const Text(
@@ -42,7 +41,7 @@ class HomeScreen extends StatelessWidget {
                 IconButton(
                   icon: const Icon(Icons.menu, color: Colors.black),
                   onPressed: () {
-                    // Implement menu functionality here
+
                   },
                 ),
               ],
