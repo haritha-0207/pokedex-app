@@ -20,7 +20,7 @@ class HomeScreen extends StatelessWidget {
           },
         ),
         title: const Text(
-          'Pokédex',
+          'Pokedex',
           style: TextStyle(
             color: Colors.black,
             fontSize: 24,

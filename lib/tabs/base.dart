@@ -28,7 +28,7 @@ class BaseStatsTab extends StatelessWidget {
                   child: Text(
                     statName,
                     style: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                      fontSize: 18,
+                      fontSize: 17,
                       fontWeight: FontWeight.bold,
                       color: Colors.grey,
                     ),
